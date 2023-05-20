@@ -1,0 +1,64 @@
+html{
+    height: 100%;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    background-image: linear-gradient(black,gray);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+.navbar{
+    display: inline-block;
+   
+}
+.navbar h1{
+    display: inline;
+}
+.navbar a{
+    margin-left: 10px;
+    margin-right: 10px;
+    background: none;
+    text-decoration: none;
+    color: white;
+}
+.sci-fi{
+    width:19%;
+    margin-left: 3%;
+    margin-right: 3%;
+    height: 500px;
+    display: inline-block;
+}
+.sci-fi img{
+    width: 100%;
+    height: 500px;
+    border: 2px solid red;
+}
+.thriller{
+    display: flex;
+    background-image: linear-gradient(black,gray);
+    height: 600px;
+    padding-top: 5%;
+}
+.thriller div{
+    width: 19%;
+    height: 100%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.thriller div img{
+    width: 100%;
+    height: 500px;
+    border: 2px solid red;
+}
+footer{
+    background-image:linear-gradient(black,white);
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+footer p{
+    margin-top: 0%;
+}
